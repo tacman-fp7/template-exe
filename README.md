@@ -1,13 +1,13 @@
-templage-pkg
+template-exe
 ===========
 
-This repository contains example code for creating a package with one or more C++ libraries.
+This repository contains example code for creating an executable with C++.
 
-Use the code in this repository to initialize your own package. This package can contain one ore more libraries and executables that solve a particular problem. 
+Use the code in this repository for simple executables (to create a package with libraries look a the sister project template-pkg).
 
 The code contains documentation that uses Doxygen. The output produced by Doxygen can be seen here:
 
-http://tacman-fp7.github.io/template-pkg
+http://tacman-fp7.github.io/template-exe
 
 
 
