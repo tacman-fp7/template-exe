@@ -1,4 +1,11 @@
 cmake_minimum_required(VERSION 2.8.11)
+### Steps for customization
+# 1. Change TemplateExe with the name of your executable package
+# 2. Change version information
+# 3. Add your code in src
+# Notice: this executable depends on the library TemplatePkg to demonstrate how you can 
+# deal with dependencies, update accordingly.
+
 project(TemplateExe CXX)
 
 set(TEMPLATE_EXE_MAJOR_VERSION 0)
