@@ -26,13 +26,13 @@ before_script:
 - cd build
 - cmake ../
 - make
-- set Template-Pkg_DIR=${PWD}
+- set TemplatePkg_DIR=${PWD}
 - cd ../../
 - mkdir build
 
 # Change this to your needs
 script: 
-- echo ${Template-Pkg_DIR}
+- echo ${TemplatePkg_DIR}
 - cd build
 - cmake ../
 - make
