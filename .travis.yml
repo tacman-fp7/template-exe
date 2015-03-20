@@ -1,0 +1,24 @@
+language: cpp
+os: 
+  -linux
+compiler:
+  - gcc
+
+before_script:
+- cmake --version
+- git https://github.com/tacman-fp7/template-pkg.git
+- cd template-pkg
+- mkdir build -p
+- cd build
+- cmake ../
+- make
+- set template-pkg_DIR=${PWD}
+- cd ../../
+- mkdir -p build
+
+# Change this to your needs
+script: 
+- cd build
+- cmake ../
+- make
+
