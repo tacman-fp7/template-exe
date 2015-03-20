@@ -11,10 +11,9 @@ install:
 
 
 before_script:
-- cmake --version
 - git clone https://github.com/robotology/ycm.git
 - cd ycm
-- mkdir -p build
+- mkdir build
 - cd build
 - cmake ../
 - make
@@ -22,13 +21,13 @@ before_script:
 
 - git clone https://github.com/tacman-fp7/template-pkg.git
 - cd template-pkg
-- mkdir build -p
+- mkdir build
 - cd build
 - cmake ../
 - make
 - set template-pkg_DIR=${PWD}
 - cd ../../
-- mkdir -p build
+- mkdir build
 
 # Change this to your needs
 script: 
