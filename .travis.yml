@@ -12,6 +12,14 @@ install:
 
 before_script:
 - cmake --version
+- git clone https://github.com/robotology/ycm.git
+- cd ycm
+- mkdir -p build
+- cd build
+- cmake ../
+- make
+- sudo make install
+
 - git clone https://github.com/tacman-fp7/template-pkg.git
 - cd template-pkg
 - mkdir build -p
