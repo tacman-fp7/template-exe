@@ -9,6 +9,6 @@ The code contains documentation that uses Doxygen. The output produced by Doxyge
 
 http://tacman-fp7.github.io/template-exe
 
-https://travis-ci.org/tacman-fp7/template-exe
+https://travis-ci.org/tacman-fp7/template-exe.svg?branch=master
 
 
